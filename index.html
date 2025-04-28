@@ -15,13 +15,12 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            min-height: 100vh; /* Ajustado aqui */
+            min-height: 100vh;
             text-align: center;
             box-sizing: border-box;
-            overflow-x: hidden; /* Permite rolar para baixo se precisar */
+            overflow-x: hidden;
             overflow-y: auto;
         }
-
         h1 {
             font-size: 5vw;
             text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
@@ -29,13 +28,11 @@
             white-space: normal;
             word-wrap: break-word;
         }
-
         .wayss {
             font-size: 2rem;
             margin-top: 20px;
             text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
         }
-
         .video-container {
             width: 100%;
             max-width: 960px;
@@ -44,17 +41,21 @@
             border-radius: 10px;
             overflow: hidden;
         }
-
         video {
             width: 100%;
             height: auto;
             display: block;
         }
-
         audio {
             margin: 20px 0;
             width: 100%;
             max-width: 400px;
+        }
+        .footer {
+            margin-top: 40px;
+            font-size: 1rem;
+            color: gray;
+            text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
         }
     </style>
 </head>
@@ -68,10 +69,5 @@
             Seu navegador não suporta o elemento de vídeo.
         </video>
     </div>
-
-    <audio controls autoplay loop>
-        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
-        Seu navegador não suporta o elemento de áudio.
-    </audio>
 </body>
 </html>
